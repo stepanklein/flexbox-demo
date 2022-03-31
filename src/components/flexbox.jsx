@@ -6,10 +6,10 @@ const Conteiner = styled.div`
     padding: 20px;
     background-color: rgb(0, 113, 8);
     ${(props) => {
-        if(props.declerationName != undefined && props.declerationValue != undefined)
+        if(props.declarationName != undefined && props.declarationValue != undefined)
         {
           return css`
-        ${props.declerationName} :${props.declerationValue} ;
+        ${props.declarationName} :${props.declarationValue} ;
         `;
         }
     }}
@@ -21,10 +21,10 @@ const Item = styled.div`
     background-color: ${props => props.inputColor || "#282c34"};
 
 `;
-function Flexbox() {
-    
+function Flexbox({declarationName, declarationValue}) {
+  console.log(declarationValue);
     return (
-    <Conteiner declerationName = "flex-direction" declerationValue="column">
+    <Conteiner declarationName = {declarationName} declarationValue={declarationValue}>
       <Item >text</Item>
       <Item inputColor="#023497">text</Item>
       <Item >text</Item>
