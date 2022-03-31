@@ -3,14 +3,15 @@ import styled , { css } from 'styled-components';
 import Flexbox from "./flexbox";
 import DecValue from "./decValue"
 
-function Box({declaration, defaultDecValue, values}) {
+function Box({declaration, defaultDecValue, values, nOfItems}) {
    const [declarationValue, setDeclarationValue] = useState(defaultDecValue);
-  
+   const decValues = values.map((value,index)=>{return <DecValue key={index} value={value} setter={setDeclarationValue}></DecValue>})
     return (
     <>
-        <h2>{declaration}</h2>
-        <Flexbox declarationName={declaration} declarationValue={declarationValue}></Flexbox>
-        <DecValue value={"row"} setter={setDeclarationValue}></DecValue>
+        <h3>{declaration}</h3>
+        <p>{declarationValue}</p>
+        <Flexbox declarationName={declaration} nOfItems={nOfItems} declarationValue={declarationValue}></Flexbox>
+        {decValues}
     </>
     );
   }

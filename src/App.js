@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Box from './components/box';
+import Main from './components/main';
 
 function App() {
   return (
-  <Box declaration="flex-direction" defaultDecValue="column"></Box>
+  <Main declaration="flex-direction" defaultDecValue="column" />
   );
 }
 
