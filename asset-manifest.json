@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/flexbox-demo/static/css/main.f7c18580.css",
-    "main.js": "/flexbox-demo/static/js/main.62c09eb1.js",
+    "main.js": "/flexbox-demo/static/js/main.ced2955b.js",
     "static/js/787.fc6f200d.chunk.js": "/flexbox-demo/static/js/787.fc6f200d.chunk.js",
     "static/media/logo.svg": "/flexbox-demo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/flexbox-demo/index.html",
     "main.f7c18580.css.map": "/flexbox-demo/static/css/main.f7c18580.css.map",
-    "main.62c09eb1.js.map": "/flexbox-demo/static/js/main.62c09eb1.js.map",
+    "main.ced2955b.js.map": "/flexbox-demo/static/js/main.ced2955b.js.map",
     "787.fc6f200d.chunk.js.map": "/flexbox-demo/static/js/787.fc6f200d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7c18580.css",
-    "static/js/main.62c09eb1.js"
+    "static/js/main.ced2955b.js"
   ]
 }
