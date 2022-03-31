@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled , { css } from 'styled-components';
-import Flexbox, {Conteiner, Item} from "./flexbox";
+import {Conteiner, Item} from "../styles";
 
 function FlexboxItem() {
    
