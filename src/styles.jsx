@@ -3,7 +3,8 @@ import styled , { css } from 'styled-components';
 
 export const Conteiner = styled.div`
     display: flex;
-    padding: 20px;
+    border: solid 10px;
+    border-color: rgb(0, 68, 5);
     background-color: rgb(0, 113, 8);
     max-width: 500px;
     flex-wrap: wrap;
